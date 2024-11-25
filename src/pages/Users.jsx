@@ -67,7 +67,7 @@ const Users = () => {
 
       {isModalOpen && (
         <div className="fixed inset-0 bg-gray-500 bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white p-6 rounded-md w-full sm:w-96 shadow-xl">
+          <div className="bg-white p-6 rounded-md w-96 shadow-xl">
             <h3 className="text-2xl mb-4">
               {currentUser?.id ? "Edit User" : "Add New User"}
             </h3>
